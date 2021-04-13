@@ -1,0 +1,60 @@
+.login {
+  margin-left: 40%;
+  margin-top: 50px;
+}
+.loginform {
+  height: 100vh;
+  width: 50vw;
+}
+.loginform p {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.loginform input {
+  border: 1px solid black;
+  padding: 10px 60px;
+  margin-bottom: 40px;
+}
+
+.loginbutton {
+  padding: 10px 110px;
+  color: white;
+  font-size: 20px;
+  background: black;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.signupbutton {
+  padding: 10px 105px;
+  color: white;
+  font-size: 20px;
+  background: black;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+    margin-left: 20%;
+  }
+  .loginform p {
+    font-size: 13px;
+  }
+  .loginform input {
+    padding: 4px 30px;
+  }
+
+  .loginbutton {
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+
+  .signupbutton {
+    padding: 10px 50px;
+    font-size: 14px;
+  }
+}

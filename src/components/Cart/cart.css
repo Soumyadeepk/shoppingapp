@@ -1,0 +1,147 @@
+.cartimage {
+  height: 300px;
+  width: 220px;
+}
+.cartitemtitle {
+  font-size: 20px;
+}
+.cartlist {
+  display: grid;
+  grid-template-columns: repeat(2, 25%);
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.cartul {
+  list-style-type: none;
+}
+.itemdesc {
+  width: 200px;
+  position: relative;
+}
+.quantity {
+  display: flex;
+  justify-content: space-between;
+}
+.addsubitem {
+  background: black;
+  color: white;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+.addsubitem:hover {
+  background: white;
+  color: black;
+  border-bottom: 1px solid black;
+}
+.itemqua {
+  background: white;
+  color: black;
+  padding: 2px 10px;
+  border: 0.75px solid black;
+  cursor: pointer;
+}
+
+.cartbtn {
+  color: white;
+  background: black;
+  border: none;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  padding: 10px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.cartbtn:hover {
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+.emptycart {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  color: grey;
+}
+
+.cartTotal {
+  position: fixed;
+  top: 150px;
+  right: 100px;
+  border: 1px solid black;
+  height: 170px;
+  width: 250px;
+}
+
+.totalvalue {
+  margin: 20px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.checkout {
+  background: black;
+  color: white;
+  border: none;
+  width: 80%;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 23px;
+  cursor: pointer;
+}
+.checkout:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.totaltext {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cartfooter {
+  margin-top: 32vh;
+}
+@media screen and (max-width: 768px) {
+  .cartlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 15vw;
+  }
+  .cartimage {
+    width: 120px;
+    height: 150px;
+    margin-left: -50px;
+  }
+  
+  .itemdesc p{
+    font-size: 14px;
+  }
+
+  .cartbtn {
+    color: white;
+    background: black;
+    border: none;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    padding: 7px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .cartTotal {
+    margin-top: 10vh;
+    position: relative;
+    top: 0;
+    left: 15vw;
+    border: 1px solid black;
+    height: 170px;
+    width: 250px;
+  }
+  
+  
+
+
+}

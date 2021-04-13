@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 40vh;
+  width: 100vw;
+  padding-top: 7vh;
+  border-top: 1px solid black;
+}
+
+.list {
+  list-style-type: none;
+}
+.list li {
+  color: #8b8b8b;
+}
+.list li:hover {
+  cursor: pointer;
+}
+.list li:nth-child(1) {
+  font-size: 1.2em;
+  color: #4f4f4f;
+}

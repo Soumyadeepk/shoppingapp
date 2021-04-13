@@ -1,0 +1,100 @@
+.tshirt {
+  display: grid;
+  grid-template-columns: repeat(3, 16%);
+  justify-content: center;
+  grid-column-gap: 80px;
+  grid-row-gap: 30px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.prodcard {
+  position: relative;
+  height: 340px;
+  width: 230px;
+}
+
+.prodcard img {
+  height: 270px;
+  width: 100%;
+  cursor: pointer;
+
+  object-fit: cover;
+}
+
+.carddata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #686868;
+}
+.price {
+  margin-right: 10px;
+  font-size: 13px;
+}
+.title {
+  font-size: 14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.carddesc {
+  margin-right: 10px;
+}
+.desc {
+  color: #3e3d3c;
+  margin-left: 10px;
+}
+.desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: black;
+  color: white;
+  position: absolute;
+  height: 30px;
+  width: 70px;
+  top: 276px;
+  left: 160px;
+  text-align: center;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+.addedwish {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .tshirt {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+    margin-top: 4vh;
+  }
+
+  .prodcard {
+    position: relative;
+    height: 250px;
+    width: 150px;
+  }
+
+  .prodcard img {
+    height: 180px;
+  }
+
+  .button {
+    top: 190px;
+    left: 70px;
+  }
+}
